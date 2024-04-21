@@ -1,14 +1,12 @@
-﻿Console.WriteLine("Cześć Nikodem");
-
-string name = "Nikodem";
-int age = 17;
+﻿string name = "Nikodem";
 string gender = "Men";
+int age = 21;
 
 if (gender == "Women")
 {
-    if (age == 30)
+    if (age < 30)
     {
-        if (name == "Ewa")
+        if (name == "Ewa" && age == 30)
         {
             Console.WriteLine("Ewa lat 30");
         }
@@ -16,6 +14,11 @@ if (gender == "Women")
     }
 }
 else
+    if (gender == "men" && age < 18)
 {
     Console.WriteLine("Niepełnoletni mężczyzna");
+}
+else
+{
+    Console.WriteLine("Niedotyczy");
 }
