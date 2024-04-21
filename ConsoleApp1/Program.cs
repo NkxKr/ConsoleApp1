@@ -1,24 +1,4 @@
-﻿string name = "Nikodem";
-string gender = "Men";
-int age = 21;
+﻿Console.WriteLine("Cześć Nikodem");
 
-if (gender == "Women")
-{
-    if (age < 30)
-    {
-        if (name == "Ewa" && age == 30)
-        {
-            Console.WriteLine("Ewa lat 30");
-        }
-        Console.WriteLine("Kobieta poniżej 30 lat");
-    }
-}
-else
-    if (gender == "men" && age < 18)
-{
-    Console.WriteLine("Niepełnoletni mężczyzna");
-}
-else
-{
-    Console.WriteLine("Niedotyczy");
-}
+int number = 2154634;
+string numberInString = number.ToString();
