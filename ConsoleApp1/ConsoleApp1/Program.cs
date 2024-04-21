@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.Design;
-
-Console.WriteLine("Cześć Nikodem");
+﻿Console.WriteLine("Cześć Nikodem");
 
 var number = 1334718;
 string numberAsString = number.ToString();
