@@ -1,5 +1,6 @@
 ﻿Console.WriteLine("Cześć Nikodem");
 
+
 string name = "Nikodem";
 string gender = "men";
 var age = 21;
