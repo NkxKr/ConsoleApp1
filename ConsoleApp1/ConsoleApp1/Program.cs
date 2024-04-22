@@ -57,7 +57,7 @@ foreach (char letter in letters)
         counter9++;
     }
 }
-Console.WriteLine("1334718");
+Console.WriteLine(number);
 Console.WriteLine(counter0);
 Console.WriteLine(counter1);
 Console.WriteLine(counter2);
