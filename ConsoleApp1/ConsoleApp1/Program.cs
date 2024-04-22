@@ -1,70 +1,28 @@
 ﻿Console.WriteLine("Cześć Nikodem");
 
-var number = 1334718;
-string numberAsString = number.ToString();
-char[] letters = numberAsString.ToArray();
-int counter0 = 0;
-int counter1 = 0;
-int counter2 = 0;
-int counter3 = 0;
-int counter4 = 0;
-int counter5 = 0;
-int counter6 = 0;
-int counter7 = 0;
-int counter8 = 0;
-int counter9 = 0;
+string name = "Nikodem";
+string gender = "men";
+var age = 21;
 
-foreach (char letter in letters)
+if (gender == "women" && name == "Ewa")
 {
-    if (letter == '0')
+    if (age < 30)
     {
-        counter0++;
+        Console.WriteLine("Kobieta poniżej lat 30");
     }
-    else if (letter == '1')
+    else if (age == 30)
     {
-        counter1++;
-    }
-    else if (letter == '2')
-    {
-        counter2++;
-    }
-    else if (letter == '3')
-    {
-        counter3++;
-    }
-    else if (letter == '4')
-    {
-        counter4++;
-    }
-    else if (letter == '5')
-    {
-        counter5++;
-    }
-    else if (letter == '6')
-    {
-        counter6++;
-    }
-    else if (letter == '7')
-    {
-        counter7++;
-    }
-    else if (letter == '8')
-    {
-        counter8++;
-    }
-    else if (letter == '9')
-    {
-        counter9++;
+        Console.WriteLine("Ewa lat 30");
     }
 }
-Console.WriteLine(number);
-Console.WriteLine(counter0);
-Console.WriteLine(counter1);
-Console.WriteLine(counter2);
-Console.WriteLine(counter3);
-Console.WriteLine(counter4);
-Console.WriteLine(counter5);
-Console.WriteLine(counter6);
-Console.WriteLine(counter7);
-Console.WriteLine(counter8);
-Console.WriteLine(counter9);
+else if (gender == "men")
+{
+    if (age < 18)
+    {
+        Console.WriteLine("Niepełnoletni mężczyzna");
+    }
+    else
+    {
+        Console.WriteLine("Niedotyczy");
+    }
+}
