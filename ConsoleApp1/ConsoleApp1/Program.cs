@@ -5,28 +5,15 @@ string name = "Nikodem";
 string gender = "men";
 var age = 21;
 
-if (gender == "women")
+if (gender == "women" && age ==30)
 {
-    if (age < 30)
-    {
         Console.WriteLine("Kobieta poniżej lat 30");
-    }
 }
-else if (name == "Ewa")
-{
-    if (age == 30)
-    {
+else if (name == "Ewa" && age == 30)
+{   
         Console.WriteLine("Ewa lat 30");
-    }
 }
-else if (gender == "men")
+else if (gender == "men" && age < 18)
 {
-    if (age < 18)
-    {
         Console.WriteLine("Niepełnoletni mężczyzna");
-    }
-}
-else
-{
-    Console.WriteLine("");
 }
