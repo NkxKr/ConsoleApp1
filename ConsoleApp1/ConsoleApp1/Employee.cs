@@ -23,5 +23,9 @@
         {
             this.score.Add(score);
         }
+        public Employee(string name)
+        {
+            this.Name = name;
+        }
     }
 }
